@@ -71,19 +71,5 @@
 
 শিক্ষামূলক উদ্দেশ্যে ব্যবহারের জন্য মুক্ত — বিস্তারিত [LICENSE](LICENSE) ফাইলে।
 
-## 🚀 GitHub-এ পাবলিশ করবেন কীভাবে
 
-```bash
-cd windows-cheat-forensics
-git init
-git add .
-git commit -m "Initial commit: PC Cheat-Check & Forensic Investigation Field Manual"
-git branch -M main
-git remote add origin https://github.com/<your-username>/windows-cheat-forensics.git
-git push -u origin main
-```
-
-## ✍️ Author
-
-**Tasfik Abdullah**
 Live version: https://tasfik222.github.io/allinone/
