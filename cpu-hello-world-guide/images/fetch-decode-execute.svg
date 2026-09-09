@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 200" role="img">
+<title>ফেচ-ডিকোড-এক্সিকিউট চক্র</title>
+<desc>CPU প্রতিটি নির্দেশের জন্য প্রথমে ফেচ, তারপর ডিকোড, তারপর এক্সিকিউট করে এবং প্রোগ্রাম কাউন্টার বাড়িয়ে আবার প্রথম থেকে শুরু করে</desc>
+<defs>
+<marker id="arrB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<rect x="60" y="60" width="160" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="140" y="80" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#0C447C">ফেচ (Fetch)</text>
+<text x="140" y="100" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">নির্দেশ আনে</text>
+
+<line x1="220" y1="88" x2="260" y2="88" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrB)"/>
+
+<rect x="260" y="60" width="160" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="340" y="80" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#0C447C">ডিকোড (Decode)</text>
+<text x="340" y="100" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">অর্থ বোঝে</text>
+
+<line x1="420" y1="88" x2="460" y2="88" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrB)"/>
+
+<rect x="460" y="60" width="160" height="56" rx="8" fill="#E6F1FB" stroke="#185FA5" stroke-width="0.5"/>
+<text x="540" y="80" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="600" fill="#0C447C">এক্সিকিউট</text>
+<text x="540" y="100" text-anchor="middle" dominant-baseline="central" font-size="12" fill="#185FA5">কাজ সম্পন্ন করে</text>
+
+<text x="340" y="160" text-anchor="middle" font-size="12" fill="#5F5E5A">↻ প্রোগ্রাম কাউন্টার বেড়ে যায়, আবার Fetch থেকে শুরু</text>
+</svg>
